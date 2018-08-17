@@ -1,0 +1,69 @@
+% Chapter 1
+
+\chapter{numerical} % Main chapter title
+
+\label{numerical} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+
+
+\section{Governing equations}
+
+Continuity equation:
+\begin{equation} \label{eq:cont}
+\frac{\partial \rho}{\partial t} + \nabla (\rho U) = 0
+\end{equation}
+
+Momentum equation:
+\begin{equation} \label{eq:momentum}
+\frac{dU}{dt} = - \frac{1}{\rho} \nabla p + \nu \nabla^{2} U
+\end{equation}
+
+\subsection{Derivation of ...}
+
+continuity
+
+\subsection{Derivation of ...}
+
+momentum
+
+
+\section{RANS}
+
+RANS
+
+\subsection{Derivation of RANS}
+
+rans
+
+%----------------------------------------------------------------------------------------
+
+\section{LES}
+
+\subsection{Folders}
+
+\subsection{Files}
+
+%----------------------------------------------------------------------------------------
+
+\section{Pictures}
+
+\begin{figure}[h!]
+\centering % bo \centering nie wstawia dodatkowego odstępu
+\includegraphics[width=0.85\textwidth]{Figures/pickle_rick.png}
+\caption{Resolving eddies in different kinds of CFD analyses}
+\label{pickle_rick}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+
+
